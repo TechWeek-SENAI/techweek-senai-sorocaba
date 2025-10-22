@@ -56,10 +56,10 @@ export const Footer = () => {
           <p className="text-xs text-muted-foreground/70 mt-2">
             Desenvolvido por 
               {" "}
-              <a href="https://github.com/lucianomenezesjr"  className="hover:underline">Luciano Jr</a>
+              <a href="https://www.linkedin.com/in/luciano-j%C3%BAnior-89b6b7211/"  className="hover:underline">Luciano Jr</a>
               {" & "}
                
-              <a href="https://github.com/lucianomenezesjr"  className="hover:underline">Victor Geroto</a>
+              <a href="https://www.linkedin.com/in/victortoledo28/"  className="hover:underline">Victor Geroto</a>
               {" "}
                – SENAI Sorocaba
           </p>
