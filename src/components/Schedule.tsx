@@ -93,7 +93,7 @@ export const Schedule = ({ schedule }: ScheduleProps) => {
                         className="w-full group/btn"
                       >
                         <a href={talk.registrationLink} target="_blank" rel="noopener noreferrer">
-                          Register Now
+                          Faça a inscrição já
                           <ExternalLink className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                         </a>
                       </Button>
