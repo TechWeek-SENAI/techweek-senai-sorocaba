@@ -1,0 +1,124 @@
+{
+  "event": {
+    "title": "Technology Week",
+    "subtitle": "SENAI Sorocaba 2025",
+    "description": "Three days of innovation, learning, and networking for Software and Mechatronics students.",
+    "date": "October 17th–19th, 2025",
+    "location": "SENAI Sorocaba, Brazil"
+  },
+  "schedule": [
+    {
+      "date": "October 17th",
+      "talks": [
+        {
+          "title": "Introduction to Generative AI",
+          "speaker": "João Silva",
+          "company": "Google",
+          "description": "Explore the fundamental concepts and practical applications of generative AI in 2025. Learn how AI is transforming industries.",
+          "registrationLink": "https://www.even3.com.br/example"
+        },
+        {
+          "title": "The Future of Web Development",
+          "speaker": "Ana Costa",
+          "company": "Microsoft",
+          "description": "Discover cutting-edge web technologies and frameworks shaping the future of digital experiences.",
+          "registrationLink": "https://www.even3.com.br/example"
+        }
+      ]
+    },
+    {
+      "date": "October 18th",
+      "talks": [
+        {
+          "title": "IoT and Smart Manufacturing",
+          "speaker": "Maria Souza",
+          "company": "Embraer",
+          "description": "Understanding how Internet of Things is revolutionizing the manufacturing industry with real-world examples.",
+          "registrationLink": "https://www.even3.com.br/example"
+        },
+        {
+          "title": "Cybersecurity in 2025",
+          "speaker": "Carlos Mendes",
+          "company": "IBM",
+          "description": "Critical insights into protecting systems and data in an increasingly connected world.",
+          "registrationLink": "https://www.even3.com.br/example"
+        }
+      ]
+    },
+    {
+      "date": "October 19th",
+      "talks": [
+        {
+          "title": "Robotics and Automation",
+          "speaker": "Pedro Lima",
+          "company": "Bosch",
+          "description": "Hands-on workshop on modern robotics, automation techniques, and their applications in mechatronics.",
+          "registrationLink": "https://www.even3.com.br/example"
+        },
+        {
+          "title": "Building Scalable Cloud Solutions",
+          "speaker": "Juliana Santos",
+          "company": "AWS",
+          "description": "Learn best practices for designing and deploying cloud-native applications at scale.",
+          "registrationLink": "https://www.even3.com.br/example"
+        }
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "name": "João Silva",
+      "company": "Google",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "bio": "AI researcher and software engineer with 10+ years of experience in machine learning and generative models."
+    },
+    {
+      "name": "Ana Costa",
+      "company": "Microsoft",
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      "bio": "Senior full-stack developer specializing in modern web frameworks and progressive web applications."
+    },
+    {
+      "name": "Maria Souza",
+      "company": "Embraer",
+      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+      "bio": "Mechatronics engineer and automation specialist leading IoT initiatives in aerospace manufacturing."
+    },
+    {
+      "name": "Carlos Mendes",
+      "company": "IBM",
+      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      "bio": "Cybersecurity expert with extensive experience in threat detection and security architecture."
+    },
+    {
+      "name": "Pedro Lima",
+      "company": "Bosch",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      "bio": "Robotics engineer passionate about automation and Industry 4.0 technologies."
+    },
+    {
+      "name": "Juliana Santos",
+      "company": "AWS",
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+      "bio": "Cloud solutions architect helping enterprises migrate and scale their infrastructure on AWS."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&h=800&fit=crop",
+      "caption": "Opening keynote 2024"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=1200&h=800&fit=crop",
+      "caption": "Workshop session"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1200&h=800&fit=crop",
+      "caption": "Networking event"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1200&h=800&fit=crop",
+      "caption": "Tech demonstrations"
+    }
+  ]
+}
