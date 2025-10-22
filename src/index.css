@@ -8,42 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 10%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
 
     --primary: 356 94% 46%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 169 100% 39%;
+    --accent: 356 94% 46%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 169 100% 39%;
+    --input: 0 0% 15%;
+    --ring: 356 94% 46%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(356 94% 46% / 0.2), hsl(169 100% 39% / 0.2));
+    --gradient-hero: linear-gradient(135deg, hsl(356 94% 46% / 0.3), hsl(0 0% 5% / 0.9));
     --gradient-primary: linear-gradient(135deg, hsl(356 94% 46%), hsl(356 94% 36%));
-    --gradient-accent: linear-gradient(135deg, hsl(169 100% 39%), hsl(169 100% 29%));
-    --shadow-glow: 0 0 40px hsl(169 100% 39% / 0.3);
-    --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+    --gradient-accent: linear-gradient(135deg, hsl(356 94% 46%), hsl(356 94% 56%));
+    --shadow-glow: 0 0 40px hsl(356 94% 46% / 0.4);
+    --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.8);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
@@ -59,15 +59,5 @@ All colors MUST be HSL.
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
   }
 }

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Calendar, ExternalLink, User, Building2 } from "lucide-react";
+import { Calendar, ExternalLink, User, Building2, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -7,6 +7,7 @@ interface Talk {
   title: string;
   speaker: string;
   company: string;
+  location: string;
   description: string;
   registrationLink: string;
 }
@@ -75,6 +76,10 @@ export const Schedule = ({ schedule }: ScheduleProps) => {
                         <div className="flex items-center gap-2">
                           <Building2 className="h-4 w-4 text-accent" />
                           <span>{talk.company}</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <MapPin className="h-4 w-4 text-primary" />
+                          <span className="font-medium text-foreground">{talk.location}</span>
                         </div>
                       </div>
 

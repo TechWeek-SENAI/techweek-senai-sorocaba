@@ -14,6 +14,7 @@
           "title": "Introduction to Generative AI",
           "speaker": "João Silva",
           "company": "Google",
+          "location": "Main Auditorium",
           "description": "Explore the fundamental concepts and practical applications of generative AI in 2025. Learn how AI is transforming industries.",
           "registrationLink": "https://www.even3.com.br/example"
         },
@@ -21,6 +22,7 @@
           "title": "The Future of Web Development",
           "speaker": "Ana Costa",
           "company": "Microsoft",
+          "location": "Lab 1 - Software Development",
           "description": "Discover cutting-edge web technologies and frameworks shaping the future of digital experiences.",
           "registrationLink": "https://www.even3.com.br/example"
         }
@@ -33,6 +35,7 @@
           "title": "IoT and Smart Manufacturing",
           "speaker": "Maria Souza",
           "company": "Embraer",
+          "location": "Lab 2 - Mechatronics",
           "description": "Understanding how Internet of Things is revolutionizing the manufacturing industry with real-world examples.",
           "registrationLink": "https://www.even3.com.br/example"
         },
@@ -40,6 +43,7 @@
           "title": "Cybersecurity in 2025",
           "speaker": "Carlos Mendes",
           "company": "IBM",
+          "location": "Main Auditorium",
           "description": "Critical insights into protecting systems and data in an increasingly connected world.",
           "registrationLink": "https://www.even3.com.br/example"
         }
@@ -52,6 +56,7 @@
           "title": "Robotics and Automation",
           "speaker": "Pedro Lima",
           "company": "Bosch",
+          "location": "Lab 2 - Mechatronics",
           "description": "Hands-on workshop on modern robotics, automation techniques, and their applications in mechatronics.",
           "registrationLink": "https://www.even3.com.br/example"
         },
@@ -59,6 +64,7 @@
           "title": "Building Scalable Cloud Solutions",
           "speaker": "Juliana Santos",
           "company": "AWS",
+          "location": "Lab 1 - Software Development",
           "description": "Learn best practices for designing and deploying cloud-native applications at scale.",
           "registrationLink": "https://www.even3.com.br/example"
         }

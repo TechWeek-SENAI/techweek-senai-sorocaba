@@ -22,6 +22,7 @@ interface EventData {
       title: string;
       speaker: string;
       company: string;
+      location: string;
       description: string;
       registrationLink: string;
     }>;
