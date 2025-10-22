@@ -5,18 +5,18 @@ import { Card } from "@/components/ui/card";
 const features = [
   {
     icon: Lightbulb,
-    title: "Innovation",
-    description: "Discover cutting-edge technologies and emerging trends in software and mechatronics.",
+    title: "Inovação",
+    description: "Descubra tecnologias de ponta e tendências emergentes em software e mecatrônica.",
   },
   {
     icon: Wrench,
     title: "Workshops",
-    description: "Hands-on sessions with industry experts covering practical skills and tools.",
+    description: "Sessões práticas com especialistas da indústria, abordando habilidades e ferramentas essenciais.",
   },
   {
     icon: Users,
     title: "Networking",
-    description: "Connect with professionals, peers, and companies shaping the future of technology.",
+    description: "Conecte-se com profissionais, colegas e empresas que estão moldando o futuro da tecnologia.",
   },
 ];
 
@@ -32,10 +32,10 @@ export const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold font-heading mb-4">
-            Why Join <span className="text-primary">Technology Week</span>?
+            Por que participar da <span className="text-primary">Semana de Tecnologia</span>?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            An immersive experience designed for the next generation of tech professionals.
+            Uma experiência imersiva pensada para a próxima geração de profissionais de tecnologia.
           </p>
         </motion.div>
 

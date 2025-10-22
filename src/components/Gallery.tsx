@@ -29,10 +29,10 @@ export const Gallery = ({ gallery }: GalleryProps) => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold font-heading mb-4">
-            Event <span className="text-primary">Gallery</span>
+            Galeria do <span className="text-primary">Evento</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Highlights from previous Technology Week events.
+            Destaques da semana de tecnologia
           </p>
         </motion.div>
 

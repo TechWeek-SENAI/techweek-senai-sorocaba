@@ -1,14 +1,14 @@
 {
   "event": {
-    "title": "Technology Week",
-    "subtitle": "SENAI Sorocaba 2025",
-    "description": "Three days of innovation, learning, and networking for Software and Mechatronics students.",
-    "date": "October 17th–19th, 2025",
-    "location": "SENAI Sorocaba, Brazil"
+    "title": "Semana de tecnologia",
+    "subtitle": "Faculdade SENAI Sorocaba 2025",
+    "description": "Três dias de inovação, aprendizado e networking para estudantes de Software e Mecatrônica.",
+    "date": "17 a 19 de novembro de 2025",
+    "location": "SENAI Sorocaba, Brasil"
   },
   "schedule": [
     {
-      "date": "October 17th",
+      "date": "17 de novembro",
       "talks": [
         {
           "title": "Introduction to Generative AI",
@@ -16,7 +16,7 @@
           "company": "Google",
           "location": "Main Auditorium",
           "description": "Explore the fundamental concepts and practical applications of generative AI in 2025. Learn how AI is transforming industries.",
-          "registrationLink": "https://www.even3.com.br/example"
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
           "title": "The Future of Web Development",
@@ -24,12 +24,12 @@
           "company": "Microsoft",
           "location": "Lab 1 - Software Development",
           "description": "Discover cutting-edge web technologies and frameworks shaping the future of digital experiences.",
-          "registrationLink": "https://www.even3.com.br/example"
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
     },
     {
-      "date": "October 18th",
+      "date": "18 de novembro",
       "talks": [
         {
           "title": "IoT and Smart Manufacturing",
@@ -37,7 +37,7 @@
           "company": "Embraer",
           "location": "Lab 2 - Mechatronics",
           "description": "Understanding how Internet of Things is revolutionizing the manufacturing industry with real-world examples.",
-          "registrationLink": "https://www.even3.com.br/example"
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
           "title": "Cybersecurity in 2025",
@@ -45,12 +45,12 @@
           "company": "IBM",
           "location": "Main Auditorium",
           "description": "Critical insights into protecting systems and data in an increasingly connected world.",
-          "registrationLink": "https://www.even3.com.br/example"
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
     },
     {
-      "date": "October 19th",
+      "date": "19 de novembro",
       "talks": [
         {
           "title": "Robotics and Automation",
@@ -58,7 +58,7 @@
           "company": "Bosch",
           "location": "Lab 2 - Mechatronics",
           "description": "Hands-on workshop on modern robotics, automation techniques, and their applications in mechatronics.",
-          "registrationLink": "https://www.even3.com.br/example"
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
           "title": "Building Scalable Cloud Solutions",
@@ -66,7 +66,7 @@
           "company": "AWS",
           "location": "Lab 1 - Software Development",
           "description": "Learn best practices for designing and deploying cloud-native applications at scale.",
-          "registrationLink": "https://www.even3.com.br/example"
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
     }

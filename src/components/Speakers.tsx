@@ -25,10 +25,10 @@ export const Speakers = ({ speakers }: SpeakersProps) => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold font-heading mb-4">
-            Meet Our <span className="text-primary">Speakers</span>
+            Conheça nossos <span className="text-primary">Palestrantes</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Learn from industry leaders and innovators shaping the future of technology.
+            Aprenda com líderes e inovadores da indústria que estão moldando o futuro da tecnologia.
           </p>
         </motion.div>
 

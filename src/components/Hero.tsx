@@ -89,7 +89,7 @@ export const Hero = ({ title, subtitle, description, date, location }: HeroProps
               onClick={scrollToSchedule}
               className="group"
             >
-              View Schedule
+              Veja a programação
               <ChevronDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
             </Button>
           </motion.div>

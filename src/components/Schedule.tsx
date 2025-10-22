@@ -33,10 +33,10 @@ export const Schedule = ({ schedule }: ScheduleProps) => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold font-heading mb-4">
-            Event <span className="text-primary">Schedule</span>
+            Agenda do <span className="text-primary">Evento</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Three days packed with inspiring talks, hands-on workshops, and networking opportunities.
+            Três dias repletos de palestras inspiradoras, workshops práticos e oportunidades de networking.
           </p>
         </motion.div>
 
