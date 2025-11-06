@@ -25,7 +25,7 @@ export const Footer = () => {
           {/* Social links */}
           <div className="flex flex-col items-center gap-4">
             <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
-              Conecte Conosco
+              Conecte-se Conosco
             </h4>
             <div className="flex gap-4">
               <a

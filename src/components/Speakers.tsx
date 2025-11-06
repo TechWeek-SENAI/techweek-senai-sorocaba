@@ -32,6 +32,9 @@ export const Speakers = ({ speakers }: SpeakersProps) => {
           </p>
         </motion.div>
 
+        <h1 className="text-3xl sm:text-4xl text-center font-heading mb-4">Palestrantes a definir</h1>
+
+        {/* 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {speakers.map((speaker, index) => (
             <motion.div
@@ -70,6 +73,7 @@ export const Speakers = ({ speakers }: SpeakersProps) => {
             </motion.div>
           ))}
         </div>
+        */}
       </div>
     </section>
   );
