@@ -12,10 +12,10 @@
       "talks": [
         {
           "title": "Introduction to Generative AI",
-          "speaker": "João Silva",
+          "speaker": "Gabriel Faria e Silva",
           "company": "Google",
           "location": "Main Auditorium",
-          "description": "Explore the fundamental concepts and practical applications of generative AI in 2025. Learn how AI is transforming industries.",
+          "description": "Especializando em cloud, primariamente AWS (Certified Cloud Practitioner). Desenvolve uma Iniciação Científica voltada a pipelines de dados na plataforma.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
@@ -73,40 +73,16 @@
   ],
   "speakers": [
     {
-      "name": "João Silva",
-      "company": "Google",
-      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      "bio": "AI researcher and software engineer with 10+ years of experience in machine learning and generative models."
+      "name": "Gabriel Faria e Silva - Gestor de Projetos",
+      "company": "Cyber Horizon Group",
+      "photo": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/speakers/IMG-20251016-WA0218%20-%20Gabriel%20Faria.jpg",
+      "bio": "Especializando em cloud, primariamente AWS (Certified Cloud Practitioner). Desenvolve uma Iniciação Científica voltada a pipelines de dados na plataforma."
     },
     {
-      "name": "Ana Costa",
-      "company": "Microsoft",
-      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-      "bio": "Senior full-stack developer specializing in modern web frameworks and progressive web applications."
-    },
-    {
-      "name": "Maria Souza",
-      "company": "Embraer",
-      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-      "bio": "Mechatronics engineer and automation specialist leading IoT initiatives in aerospace manufacturing."
-    },
-    {
-      "name": "Carlos Mendes",
-      "company": "IBM",
-      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
-      "bio": "Cybersecurity expert with extensive experience in threat detection and security architecture."
-    },
-    {
-      "name": "Pedro Lima",
-      "company": "Bosch",
-      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
-      "bio": "Robotics engineer passionate about automation and Industry 4.0 technologies."
-    },
-    {
-      "name": "Juliana Santos",
-      "company": "AWS",
-      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-      "bio": "Cloud solutions architect helping enterprises migrate and scale their infrastructure on AWS."
+      "name": "Bruno Souza",
+      "company": "Autônomo (BRAS Psicologia e Consultoria)",
+      "photo": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/speakers/Foto%20consultoria%20-%20Bruno%20Rafael%20Antunes%20de%20Souza%20Bruno%20Souza.jpg",
+      "bio": "Psicologia clínica, consultoria em saúde mental no trabalho e desenvolvimento humano e organizacional."
     }
   ],
   "gallery": [
