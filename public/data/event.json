@@ -11,7 +11,7 @@
       "date": "17 de novembro",
       "talks": [
         {
-          "title": "Fundamentos de Nuvem e Pipelines de Dados na AWS",
+          "title": "Minicurso - Fundamentos de Nuvem e Pipelines de Dados na AWS",
           "speaker": "Gabriel Faria - Gestor de Projetos",
           "company": "Cyber Horizon Group",
           "location": "Indefinido",
@@ -19,7 +19,7 @@
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
-          "title": "Comunicar para Engajar: A Arte da Oratória no Mundo Técnico",
+          "title": "Minicurso - Comunicar para Engajar: A Arte da Oratória no Mundo Técnico",
           "speaker": "Jorge Sabino - Consultor em Performance e Comportamento Organizacional",
           "company": "Sabino Treinamento & Desenvolvimento",
           "location": "Indefinido",
@@ -32,7 +32,7 @@
       "date": "18 de novembro",
       "talks": [
         {
-          "title": "Assertividade: A Habilidade que Salva Relações",
+          "title": "Palestra - Assertividade: A Habilidade que Salva Relações",
           "speaker": "Bruno Souza - Psicólogo Clínico e Consultor em Saúde Mental no Trabalho",
           "company": "BRAS Psicologia e Consultoria",
           "location": "Indefinido",
@@ -40,7 +40,7 @@
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
-          "title": "Atributos que Formam um Gerente de Projetos de Sucesso",
+          "title": "Palestra - Atributos que Formam um Gerente de Projetos de Sucesso",
           "speaker": "Robson Queiroz - Gerente de Projetos",
           "company": "METSO",
           "location": "Indefinido",
@@ -48,11 +48,19 @@
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
-          "title": "AWS Lambda e EDA — Boas Práticas ao Desenvolvimento Orientado a Eventos",
+          "title": "Minicurso - AWS Lambda e EDA — Boas Práticas ao Desenvolvimento Orientado a Eventos",
           "speaker": "Giovani Rodrigues - Cloud Engineer e DevOps",
           "company": "2RP NET",
           "location": "Indefinido",
           "description": "Uso da AWS Lambda como base de arquiteturas orientadas a eventos, ferramentas e boas práticas para desenvolvimento serverless escalável.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "Palestra - O Ciclo de Desenvolvimento de Produtos: Conceito, Projeto e Manufatura",
+          "speaker": "João Vitor - Especialista em Soluções",
+          "company": "SKA",
+          "location": "Indefinido",
+          "description": "Uma visão completa do ciclo de desenvolvimento de produtos, desde o conceito até a manufatura, abordando como a integração entre engenharia e produção acelera a inovação e reduz custos.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
@@ -107,7 +115,14 @@
       "company": "METSO",
       "photo": "assets/speakers/RobsonQueiroz.jfif",
       "bio": "Gerente de projetos com mais de 18 anos de experiência em Gerenciamento de Projetos e Supply Chain, destacando-se por orientar e gerenciar equipes de projetos globais."
+    },
+    {
+      "name": "João Vitor",
+      "company": "SKA",
+      "photo": "assets/speakers/JoaoVitor.jpg",
+      "bio": "João Vitor é representante da SKA e especialista em engenharia digital aplicada ao ciclo de desenvolvimento de produtos. Atua integrando conceitos de projeto, manufatura e inovação tecnológica, destacando ferramentas e metodologias que otimizam o processo de criação e produção industrial. Sua palestra 'O Ciclo de Desenvolvimento de Produtos: Conceito, Projeto e Manufatura' aborda a jornada completa da ideia ao produto final, com foco em eficiência, integração e tecnologia."
     }
+
   ],
   "gallery": [
     {
