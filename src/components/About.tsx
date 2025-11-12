@@ -35,7 +35,7 @@ export const About = () => {
             Por que participar da <span className="text-primary">Semana de Tecnologia</span>?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Uma experiência imersiva pensada para a próxima geração de profissionais de tecnologia.
+            Uma experiência imersiva aberta ao público pensada para a próxima geração de profissionais de tecnologia.
           </p>
         </motion.div>
 

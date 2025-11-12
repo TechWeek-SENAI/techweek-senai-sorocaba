@@ -75,43 +75,71 @@
     {
       "name": "Gabriel Faria e Silva - Gestor de Projetos",
       "company": "Cyber Horizon Group",
-      "photo": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/speakers/IMG-20251016-WA0218%20-%20Gabriel%20Faria.jpg",
+      "photo": "assets/speakers/GabrielFaria.jpg",
       "bio": "Especializando em cloud, primariamente AWS (Certified Cloud Practitioner). Desenvolve uma Iniciação Científica voltada a pipelines de dados na plataforma."
     },
     {
       "name": "Bruno Souza",
       "company": "Autônomo (BRAS Psicologia e Consultoria)",
-      "photo": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/speakers/Foto%20consultoria%20-%20Bruno%20Rafael%20Antunes%20de%20Souza%20Bruno%20Souza.jpg",
+      "photo": "assets/speakers/BrunoSouza.jpg",
       "bio": "Psicologia clínica, consultoria em saúde mental no trabalho e desenvolvimento humano e organizacional."
     },
     {
       "name": "Eric Garcia",
       "company": "Sabino Treinamento e Desenvolvimento",
-      "photo": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/speakers/02%20-%20Eric%20Garcia.png",
+      "photo": "assets/speakers/EricGarcia.png",
       "bio": "Eric Garcia é psicanalista, treinador comportamental e palestrante, criador do Método CPA — Clareza, Planejamento e Atitude, programa que já formou mais de 700 executores em todo o Brasil. Com uma abordagem que une mente e movimento, Eric ensina líderes e equipes a desenvolverem consciência emocional, disciplina e alta performance prática. Atualmente, dedica-se à sua comunidade “CPA” e à construção do movimento O Fim dos Bonzinhos — Ocupe Seu Espaço, voltado à transformação de profissionais que cansaram de agradar e decidiram agir."
     },
     {
       "name": "Jorge Sabino",
       "company": "Sabino Treinamento & Desenvolvimento",
-      "photo": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/FB_IMG_1762618210321%20-%20Sabino%20Treinamento%20%26%20Desenvolvimento.jpg",
+      "photo": "assets/speakers/sabino.jpg",
       "bio": "Na vanguarda da gestão comportamental e do coaching ericksoniano sistêmico, tenho dedicado mais de uma década à capacitação de profissionais. Na Sabino Treinamento e Desenvolvimento, nossa equipe especializou-se em provocar mudanças culturais significativas e potencializar a liderança dentro das organizações, sempre com foco no crescimento e na eficácia organizacional."
+    },
+    {
+      "name": "Giovani Rodrigues",
+      "company": "2RP NET",
+      "photo": "assets/speakers/GiovaniRodrigues.jpg",
+      "bio": "Atuo como DevOps na 2rp Net com experiência em GCP, AWS e breve conhecimento em OCI. Tenho atuado em projetos de automação com CI/CD, IaC com CloudFormation e gerenciamento de recursos Cloud"
+    },
+    {
+      "name": "Robson Queiroz",
+      "company": "METSO",
+      "photo": "assets/speakers/RobsonQueiroz.jfif",
+      "bio": "Gerente de projetos com mais de 18 anos de experiência em Gerenciamento de Projetos e Supply Chain, destacando-se por orientar e gerenciar equipes de projetos globais."
     }
   ],
   "gallery": [
     {
-      "image": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/imageCarrosel1.jpg",
+      "image": "gallery/imageCarrosel1.jpg",
       "caption": ""
     },
     {
-      "image": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/imageCarrosel2.jpg",
+      "image": "gallery/imageCarrosel2.jpg",
       "caption": ""
     },
     {
-      "image": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/imageCarrosel3.jpg",
+      "image": "gallery/imageCarrosel3.jpg",
       "caption": ""
     },
     {
-      "image": "https://pub-045c0a41d4ff4cc9947f0e258c962642.r2.dev/imageCarrosel4.jpg",
+      "image": "gallery/imageCarrosel4.jpg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/imageCarrosel5.jpg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/imageCarrosel4.jpg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/imageCarrosel5.jpg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/imageCarrosel6.jpg",
       "caption": ""
     }
   ]
