@@ -57,10 +57,10 @@
         },
         {
           "title": "Palestra - O Ciclo de Desenvolvimento de Produtos: Conceito, Projeto e Manufatura",
-          "speaker": "João Vitor - Especialista em Soluções",
+          "speaker": "João Vitor - Técnico de Aplicação",
           "company": "SKA",
           "location": "Indefinido",
-          "description": "Uma visão completa do ciclo de desenvolvimento de produtos, desde o conceito até a manufatura, abordando como a integração entre engenharia e produção acelera a inovação e reduz custos.",
+          "description": "Desenvolvimento assistido por ferramenta CAD, Configuração de Produtos, Manufatura Integrada ao Digital.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
@@ -120,7 +120,7 @@
       "name": "João Vitor",
       "company": "SKA",
       "photo": "assets/speakers/JoaoVitor.jpg",
-      "bio": "João Vitor é representante da SKA e especialista em engenharia digital aplicada ao ciclo de desenvolvimento de produtos. Atua integrando conceitos de projeto, manufatura e inovação tecnológica, destacando ferramentas e metodologias que otimizam o processo de criação e produção industrial. Sua palestra 'O Ciclo de Desenvolvimento de Produtos: Conceito, Projeto e Manufatura' aborda a jornada completa da ideia ao produto final, com foco em eficiência, integração e tecnologia."
+      "bio": "Técnico em Eletromecânica, formado pelo SENAI, atualmente cursando graduação em Ciência da Computação. Atuando na SKA desde 2020, exerceu funções como suporte técnico e técnico de implantação em ferramentas CAD como SOLIDWORKS e colaboração com plataforma 3DEXPERIENCE, além disso, também atuou em soluções ECAD voltadas para desenvolvimento de placas PCB e ambiente esquemático. Atualmente, integra o time de Engenharia de Aplicação, com foco principal em trabalhos transacionais e transformacionais nos produtos da Dassault Systèmes, abrangendo o universo SOLIDWORKS, DELMIA e CATIA, bem como a multidisciplinaridade do ENOVIA com a plataforma 3DEXPERIENCE. "
     }
 
   ],
