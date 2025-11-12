@@ -14,7 +14,7 @@
           "title": "Minicurso - Fundamentos de Nuvem e Pipelines de Dados na AWS",
           "speaker": "Gabriel Faria - Gestor de Projetos",
           "company": "Cyber Horizon Group",
-          "location": "Indefinido",
+          "location": "Sala de aula 1 - Piso superior",
           "description": "Fundamentos de computação em nuvem, tipos de serviços na AWS, princípio de arquiteturas de nuvem, serviços serverless (principalmente Lambda), microsserviços, pipelines de dados na nuvem, hands-on na AWS",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
@@ -22,7 +22,7 @@
           "title": "Minicurso - Comunicar para Engajar: A Arte da Oratória no Mundo Técnico",
           "speaker": "Jorge Sabino - Consultor em Performance e Comportamento Organizacional",
           "company": "Sabino Treinamento & Desenvolvimento",
-          "location": "Indefinido",
+          "location": "Auditório - Piso superior",
           "description": "A falta de comunicação dentro das organizações é uma das maiores fontes de conflitos, perda de performance e desgaste emocional.Sem comunicação clara, objetiva e alinhada, os efeitos negativos aparecem rapidamente em diferentes áreas. Nesta palestra o ouvinte saberá quais são os principais fatores que tornam sua comunicação interpessoal eficaz.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
@@ -35,7 +35,7 @@
           "title": "Palestra - Assertividade: A Habilidade que Salva Relações",
           "speaker": "Bruno Souza - Psicólogo Clínico e Consultor em Saúde Mental no Trabalho",
           "company": "BRAS Psicologia e Consultoria",
-          "location": "Indefinido",
+          "location": "Auditório - Piso superior",
           "description": "Conceitos e práticas de comunicação assertiva aplicados à vida profissional e pessoal, integrando fundamentos da Psicologia e experiências clínicas.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
@@ -43,7 +43,7 @@
           "title": "Palestra - Atributos que Formam um Gerente de Projetos de Sucesso",
           "speaker": "Robson Queiroz - Gerente de Projetos",
           "company": "METSO",
-          "location": "Indefinido",
+          "location": "Auditório - Piso superior",
           "description": "Como gerenciar equipes de alta performance, desenvolver competências essenciais e alcançar sucesso em ambientes corporativos dinâmicos.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
@@ -51,7 +51,7 @@
           "title": "Minicurso - AWS Lambda e EDA — Boas Práticas ao Desenvolvimento Orientado a Eventos",
           "speaker": "Giovani Rodrigues - Cloud Engineer e DevOps",
           "company": "2RP NET",
-          "location": "Indefinido",
+          "location": "Sala de aula 1 - Piso superior",
           "description": "Uso da AWS Lambda como base de arquiteturas orientadas a eventos, ferramentas e boas práticas para desenvolvimento serverless escalável.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
@@ -72,12 +72,21 @@
           "title": "Palestra - Pense Menos e Aja Mais: O Corpo Executa o que a Mente Autoriza",
           "speaker": "Eric Garcia - Treinador Comportamental e Psicanalista",
           "company": "Sabino Treinamento & Desenvolvimento",
-          "location": "Indefinido",
+          "location": "Auditório - Piso superior",
           "description": "Entenda por que procrastinamos e como desenvolver atitude e disciplina para executar seus planos.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "Palestra - Inovação e Novos Produtos",
+          "speaker": "Wagner Pivetta Zanardo - Starrett Ind. e Com. Ltda",
+          "company": "Starrett Ind. e Com. Ltda",
+          "location": "Auditório - Piso superior",
+          "description": "O que é Inovação e como Aplicar em Desenvolvimento de Novos Produtos.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
     }
+    
   ],
   "speakers": [
     {
@@ -121,6 +130,12 @@
       "company": "SKA",
       "photo": "assets/speakers/JoaoVitor.jpg",
       "bio": "Técnico em Eletromecânica, formado pelo SENAI, atualmente cursando graduação em Ciência da Computação. Atuando na SKA desde 2020, exerceu funções como suporte técnico e técnico de implantação em ferramentas CAD como SOLIDWORKS e colaboração com plataforma 3DEXPERIENCE, além disso, também atuou em soluções ECAD voltadas para desenvolvimento de placas PCB e ambiente esquemático. Atualmente, integra o time de Engenharia de Aplicação, com foco principal em trabalhos transacionais e transformacionais nos produtos da Dassault Systèmes, abrangendo o universo SOLIDWORKS, DELMIA e CATIA, bem como a multidisciplinaridade do ENOVIA com a plataforma 3DEXPERIENCE. "
+    },
+    {
+      "name": "Wagner Pivetta Zanardo",
+      "company": "Starrett Ind. e Com. Ltda",
+      "photo": "assets/speakers/wagnerZanardo.jpg",
+      "bio": "Graduado em Tecnologia Mecânica (FATEC), MBA em Gestão de Projetos (FGV) e pós-graduação em Automação Industrial (SENAI). Atuo com na área de engenharia mecânica, com desenvolvimentos de novos produtos e processos produtivos para o mercado nacional e internacional."
     }
 
   ],
