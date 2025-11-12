@@ -11,19 +11,19 @@
       "date": "17 de novembro",
       "talks": [
         {
-          "title": "Introduction to Generative AI",
-          "speaker": "Gabriel Faria e Silva",
-          "company": "Google",
-          "location": "Main Auditorium",
-          "description": "Especializando em cloud, primariamente AWS (Certified Cloud Practitioner). Desenvolve uma Iniciação Científica voltada a pipelines de dados na plataforma.",
+          "title": "Fundamentos de Nuvem e Pipelines de Dados na AWS",
+          "speaker": "Gabriel Faria - Gestor de Projetos",
+          "company": "Cyber Horizon Group",
+          "location": "Indefinido",
+          "description": "Fundamentos de computação em nuvem, tipos de serviços na AWS, princípio de arquiteturas de nuvem, serviços serverless (principalmente Lambda), microsserviços, pipelines de dados na nuvem, hands-on na AWS",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
-          "title": "The Future of Web Development",
-          "speaker": "Ana Costa",
-          "company": "Microsoft",
-          "location": "Lab 1 - Software Development",
-          "description": "Discover cutting-edge web technologies and frameworks shaping the future of digital experiences.",
+          "title": "Comunicar para Engajar: A Arte da Oratória no Mundo Técnico",
+          "speaker": "Jorge Sabino - Consultor em Performance e Comportamento Organizacional",
+          "company": "Sabino Treinamento & Desenvolvimento",
+          "location": "Indefinido",
+          "description": "A falta de comunicação dentro das organizações é uma das maiores fontes de conflitos, perda de performance e desgaste emocional.Sem comunicação clara, objetiva e alinhada, os efeitos negativos aparecem rapidamente em diferentes áreas. Nesta palestra o ouvinte saberá quais são os principais fatores que tornam sua comunicação interpessoal eficaz.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
@@ -32,19 +32,27 @@
       "date": "18 de novembro",
       "talks": [
         {
-          "title": "IoT and Smart Manufacturing",
-          "speaker": "Maria Souza",
-          "company": "Embraer",
-          "location": "Lab 2 - Mechatronics",
-          "description": "Understanding how Internet of Things is revolutionizing the manufacturing industry with real-world examples.",
+          "title": "Assertividade: A Habilidade que Salva Relações",
+          "speaker": "Bruno Souza - Psicólogo Clínico e Consultor em Saúde Mental no Trabalho",
+          "company": "BRAS Psicologia e Consultoria",
+          "location": "Indefinido",
+          "description": "Conceitos e práticas de comunicação assertiva aplicados à vida profissional e pessoal, integrando fundamentos da Psicologia e experiências clínicas.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
-          "title": "Cybersecurity in 2025",
-          "speaker": "Carlos Mendes",
-          "company": "IBM",
-          "location": "Main Auditorium",
-          "description": "Critical insights into protecting systems and data in an increasingly connected world.",
+          "title": "Atributos que Formam um Gerente de Projetos de Sucesso",
+          "speaker": "Robson Queiroz - Gerente de Projetos",
+          "company": "METSO",
+          "location": "Indefinido",
+          "description": "Como gerenciar equipes de alta performance, desenvolver competências essenciais e alcançar sucesso em ambientes corporativos dinâmicos.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "AWS Lambda e EDA — Boas Práticas ao Desenvolvimento Orientado a Eventos",
+          "speaker": "Giovani Rodrigues - Cloud Engineer e DevOps",
+          "company": "2RP NET",
+          "location": "Indefinido",
+          "description": "Uso da AWS Lambda como base de arquiteturas orientadas a eventos, ferramentas e boas práticas para desenvolvimento serverless escalável.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
@@ -53,19 +61,11 @@
       "date": "19 de novembro",
       "talks": [
         {
-          "title": "Robotics and Automation",
-          "speaker": "Pedro Lima",
-          "company": "Bosch",
-          "location": "Lab 2 - Mechatronics",
-          "description": "Hands-on workshop on modern robotics, automation techniques, and their applications in mechatronics.",
-          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
-        },
-        {
-          "title": "Building Scalable Cloud Solutions",
-          "speaker": "Juliana Santos",
-          "company": "AWS",
-          "location": "Lab 1 - Software Development",
-          "description": "Learn best practices for designing and deploying cloud-native applications at scale.",
+          "title": "Pense Menos e Aja Mais: O Corpo Executa o que a Mente Autoriza",
+          "speaker": "Eric Garcia - Treinador Comportamental e Psicanalista",
+          "company": "Sabino Treinamento & Desenvolvimento",
+          "location": "Indefinido",
+          "description": "Entenda por que procrastinamos e como desenvolver atitude e disciplina para executar seus planos.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]

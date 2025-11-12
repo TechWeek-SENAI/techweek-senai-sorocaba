@@ -40,8 +40,8 @@ export const Schedule = ({ schedule }: ScheduleProps) => {
           </p>
         </motion.div>
 
-        <h1 className="text-3xl sm:text-4xl text-center font-bold font-heading mb-4">Em construção...</h1>
-        {/* 
+        <h1 className="text-3xl sm:text-4xl text-center font-bold font-heading mb-4">Agenda parcial</h1>
+
         <div className="space-y-12">
           {schedule.map((day, dayIndex) => (
             <motion.div
@@ -107,7 +107,7 @@ export const Schedule = ({ schedule }: ScheduleProps) => {
           ))}
         </div>
 
-      */}
+
       </div>
     </section>
   );
