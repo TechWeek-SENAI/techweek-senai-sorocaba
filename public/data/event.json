@@ -11,21 +11,30 @@
       "date": "17 de novembro",
       "talks": [
         {
-          "title": "Minicurso - Fundamentos de Nuvem e Pipelines de Dados na AWS",
-          "speaker": "Gabriel Faria - Gestor de Projetos",
-          "company": "Cyber Horizon Group",
-          "location": "Sala de aula 1 - Piso superior",
-          "description": "Fundamentos de computação em nuvem, tipos de serviços na AWS, princípio de arquiteturas de nuvem, serviços serverless (principalmente Lambda), microsserviços, pipelines de dados na nuvem, hands-on na AWS",
-          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
-        },
-        {
           "title": "Palestra - Comunicar para Engajar: A Arte da Oratória no Mundo Técnico",
           "speaker": "Jorge Sabino - Consultor em Performance e Comportamento Organizacional",
           "company": "Sabino Treinamento & Desenvolvimento",
           "location": "Auditório - Piso superior",
           "description": "A falta de comunicação dentro das organizações é uma das maiores fontes de conflitos, perda de performance e desgaste emocional.Sem comunicação clara, objetiva e alinhada, os efeitos negativos aparecem rapidamente em diferentes áreas. Nesta palestra o ouvinte saberá quais são os principais fatores que tornam sua comunicação interpessoal eficaz.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "Palestra - Excelência Industrial e Arquitetura Corporativa: como a Indústria 4.0 está mudando o jogo com IA",
+          "speaker": "Rodrigo Ferreira de Souza - IndX Manger LatAm",
+          "company": "Engineering Group - IndX",
+          "location": "Auditório - Piso superior",
+          "description": "Os principais desafios no contexto indústria exigem resiliência técnica e uma capacidade de abstração para transformar o resultado do negócio.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "Palestra - Introdução e conceitos básicos sobre a ferramenta de automação n8n",
+          "speaker": "David Vieira, Rafael Rodrigues e Ricardo Silva - Analistas de Dados e Automação",
+          "company": "2RP NET",
+          "location": "Auditório - Piso superior",
+          "description": "Iremos abordar sobre o que é o n8n, alguma das suas principais funcionalidades e mostrar uma aplicação prática durante a palestra.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
+        
       ]
     },
     {
@@ -48,19 +57,19 @@
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         },
         {
-          "title": "Minicurso - AWS Lambda e EDA — Boas Práticas ao Desenvolvimento Orientado a Eventos",
-          "speaker": "Giovani Rodrigues - Cloud Engineer e DevOps",
-          "company": "2RP NET",
-          "location": "Sala de aula 1 - Piso superior",
-          "description": "Uso da AWS Lambda como base de arquiteturas orientadas a eventos, ferramentas e boas práticas para desenvolvimento serverless escalável.",
-          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
-        },
-        {
           "title": "Palestra - O Ciclo de Desenvolvimento de Produtos: Conceito, Projeto e Manufatura",
           "speaker": "João Vitor - Técnico de Aplicação",
           "company": "SKA",
           "location": "Auditório - Piso superior",
           "description": "Desenvolvimento assistido por ferramenta CAD, Configuração de Produtos, Manufatura Integrada ao Digital.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "Minicurso - AWS Lambda e EDA — Boas Práticas ao Desenvolvimento Orientado a Eventos",
+          "speaker": "Giovani Rodrigues - Cloud Engineer e DevOps",
+          "company": "2RP NET",
+          "location": "Sala de aula 1 - Piso superior",
+          "description": "Uso da AWS Lambda como base de arquiteturas orientadas a eventos, ferramentas e boas práticas para desenvolvimento serverless escalável.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
@@ -82,6 +91,14 @@
           "company": "Starrett Ind. e Com. Ltda",
           "location": "Auditório - Piso superior",
           "description": "O que é Inovação e como Aplicar em Desenvolvimento de Novos Produtos.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "Minicurso - Fundamentos de Nuvem e Pipelines de Dados na AWS",
+          "speaker": "Gabriel Faria - Gestor de Projetos",
+          "company": "Cyber Horizon Group",
+          "location": "Sala de aula 1 - Piso superior",
+          "description": "Fundamentos de computação em nuvem, tipos de serviços na AWS, princípio de arquiteturas de nuvem, serviços serverless (principalmente Lambda), microsserviços, pipelines de dados na nuvem, hands-on na AWS",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
@@ -136,7 +153,32 @@
       "company": "Starrett Ind. e Com. Ltda",
       "photo": "assets/speakers/wagnerZanardo.jpg",
       "bio": "Graduado em Tecnologia Mecânica (FATEC), MBA em Gestão de Projetos (FGV) e pós-graduação em Automação Industrial (SENAI). Atuo com na área de engenharia mecânica, com desenvolvimentos de novos produtos e processos produtivos para o mercado nacional e internacional."
+    },
+    {
+      "name": "Rodrigo Ferreira de Souza",
+      "company": "Engineering Group - IndX",
+      "photo": "assets/speakers/RodrigoFerreira.jpeg",
+      "bio": "Iniciei minha carreira em 2006 no SENAI de Lençóis Paulista e Bauru, depois fui para Cuiabá em paralelo sempre tive oportunidades incríveis de trabalhar em projetos de alto nível tecnológico. Hoje sou IndX Manager LatAm na Engineering do Brasil."
+    },
+    {
+      "name": "David Francisco Vieira",
+      "company": "2RP NET",
+      "photo": "assets/speakers/DavidFrancisco.jpg",
+      "bio": "Estou atuando na empresa como estagiário trabalhando com a ferramenta de automação n8n."
+    },
+    {
+      "name": "Rafael Rodrigues",
+      "company": "2RP NET",
+      "photo": "assets/speakers/RafaelRodrigues.jpg",
+      "bio": "Atuo juntamente com Ricardo no time de Governança e Agilidade junto com o time do Grupo Pernambucanas, pela 2RP NET. Onde participo de atividades voltadas a criação de portfólios e automações de processos."
+    },
+    {
+      "name": "Ricardo Ferreira da Silva",
+      "company": "2RP NET",
+      "photo": "assets/speakers/RicardoSilva.jpg",
+      "bio": "Atuo no time de Governança e Agilidade juntamente com o Rafael no Grupo Pernambucanas, pela 2RP NET. Onde participo de atividades voltadas a criação de portfólios e automações de processos."
     }
+
 
   ],
   "gallery": [
