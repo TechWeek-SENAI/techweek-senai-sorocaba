@@ -105,22 +105,6 @@ export const Hero = ({ title, subtitle, description, date, location }: HeroProps
         </motion.div>
 
         <motion.div>
-          <section className="text-center my-16">
-            <h2 className="text-2xl font-bold mb-2">Seja um dos nossos palestrantes!</h2>
-            <p className="text-gray-600 mb-6">
-              Quer compartilhar seu conhecimento na Semana de Tecnologia? Envie sua proposta abaixo!
-            </p>
-
-            
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScfx1fFzkP0jjGCldOeL63fGSb6b3RWUfl2xv_U9pVt4GXqLQ/viewform?usp=dialog"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-4 bg-[#630303] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#630303c4] transition-colors"
-            >
-              Enviar proposta de palestra
-            </a>
-          </section>
         </motion.div>
       </div>
     </section>
