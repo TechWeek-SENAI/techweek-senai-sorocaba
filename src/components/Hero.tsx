@@ -101,10 +101,16 @@ export const Hero = ({ title, subtitle, description, date, location }: HeroProps
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          <ChevronDown className="h-8 w-8 text-muted-foreground/50" />
+          <ChevronDown className="h-8 w-8 mt-10 text-muted-foreground/50" />
         </motion.div>
 
         <motion.div>
+          <section className="text-center my-16">
+            
+
+            
+            
+          </section>
         </motion.div>
       </div>
     </section>
