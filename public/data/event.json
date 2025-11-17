@@ -71,6 +71,14 @@
           "location": "Sala de aula 1 - Piso superior",
           "description": "Uso da AWS Lambda como base de arquiteturas orientadas a eventos, ferramentas e boas práticas para desenvolvimento serverless escalável.",
           "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
+        },
+        {
+          "title": "Palestra - Lego Scrum City, Metodologias Ágeis na Prática",
+          "speaker": "Renê Esteves Maria - CTO (Diretor de Tecnologia)",
+          "company": "2RP NET",
+          "location": "Sala de aula 4 - Piso superior",
+          "description": "A dinâmica Lego Scrum City simula um ambiente ágil onde os participantes, divididos em squads, definem os elementos essenciais de uma cidade e transformam essas ideias em um backlog. A cada sprint, cada grupo entrega um item construído em Lego, vivenciando na prática planejamento, colaboração, inspeção e adaptação contínua dentro do framework Scrum.",
+          "registrationLink": "https://www.even3.com.br/semana-de-tecnologia-faculdade-senai-sorocaba-644110"
         }
       ]
     },
@@ -177,6 +185,12 @@
       "company": "2RP NET",
       "photo": "assets/speakers/RicardoSilva.jpg",
       "bio": "Atuo no time de Governança e Agilidade juntamente com o Rafael no Grupo Pernambucanas, pela 2RP NET. Onde participo de atividades voltadas a criação de portfólios e automações de processos."
+    },
+    {
+      "name": "Renê Esteves Maria",
+      "company": "2RP NET",
+      "photo": "assets/speakers/reneEsteves.jpg",
+      "bio": "Mestre em Engenharia da Computação e Eletrônica pelo ITA, formação que complementa sua graduação como Tecnólogo em Análise e Desenvolvimento de Sistemas pelo IFSP (2013). Durante sua trajetória no ITA, integrou o GPES, conduzindo pesquisas e iniciativas de P&D orientadas à redução e prevenção de fraudes com cartões de crédito, aplicando técnicas avançadas de análise de dados e engenharia de sistemas. Em 2018, liderou experimentos com desenvolvimento ágil utilizando a abordagem IPBL, coordenando projetos multidisciplinares com alunos de sete cursos distintos do instituto e impulsionando dinâmicas colaborativas de alto impacto. Atualmente, fortalece operações estratégicas no setor de TI, apoiando decisões essenciais, otimizando processos e contribuindo diretamente para agendas de inovação, eficiência e escalabilidade nas organizações com as quais atua."
     }
 
 
