@@ -227,6 +227,30 @@
     {
       "image": "gallery/imageCarrosel6.jpg",
       "caption": ""
+    },
+    {
+      "image": "gallery/tech_week_img1.jpeg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/tech_week_img2.jpeg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/tech_week_img3.jpeg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/tech_week_img4.jpeg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/tech_week_img5.jpeg",
+      "caption": ""
+    },
+    {
+      "image": "gallery/tech_week_img6.jpeg",
+      "caption": ""
     }
   ]
 }
