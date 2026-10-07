@@ -673,7 +673,7 @@ function Index() {
           <ul>
             <li>
               <a
-                href="https://techweek-senai-sorocaba.vercel.app/"
+                href="/2025"
                 target="_blank"
                 rel="noreferrer"
               >
