@@ -1,0 +1,27 @@
+- [x] Restaurar botão INSCREVA-SE com hover (seta diagonal)
+- [x] Cena 3D interativa no hero (arraste, cores do tema)
+- [x] Link do site 2025 no rodapé
+- [x] Galeria menor (max-width 900px)
+- [x] Limpeza CSS + build OK (claro/escuro verificados)
+- [x] Remover a faixa de estatísticas abaixo da seção principal
+- [x] Levar todos os botões INSCREVA-SE para a página oficial do Even3
+- [x] Aplicar partículas e ícones tecnológicos cinza/vermelhos ao fundo de todo o site
+- [x] Verificar fundo, temas e inscrição no navegador
+- [x] Remover os elementos 3D e restaurar o fundo escuro simples
+- [x] Manter somente o tema escuro e alinhar a abertura à esquerda
+- [x] Deixar o cabeçalho no topo, sem acompanhar a rolagem
+- [x] Ajustar e verificar toda a página em celular, tablet e desktop
+- [x] Usar a foto enviada como fundo escurecido da abertura e do cabeçalho
+- [x] Criar transição gradual da foto para o fundo escuro da segunda seção
+- [x] Atualizar todos os botões de inscrição para o novo endereço do Even3
+
+- [x] Remover a linha entre a abertura e a segunda seção
+- [x] Reduzir o corte e melhorar a apresentação da imagem principal
+- [x] Adicionar Jonathan aos palestrantes e à agenda de 15/10
+- [x] Reorganizar a agenda para dois horários em cada um dos três dias
+- [x] Organizar a agenda por categoria (ADS e Mecatrônica) com os mesmos dias e horários
+- [x] Verificar a página completa após as alterações
+- [x] Tornar a seleção de categoria da agenda um filtro (todas, ADS, Mecatrônica)
+- [x] Mostrar apenas fotos dos palestrantes, com giro, ampliação e navegação para a atividade destacada
+- [x] Alargar fotos, remover automaticamente a indicação da palestra e verificar animações de entrada nos dois sentidos da rolagem
+- [x] Reduzir um pouco as fotos dos palestrantes e ampliar a galeria
