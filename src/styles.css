@@ -597,7 +597,10 @@ p {
   transition: background 200ms ease, color 200ms ease;
 }
 .speaker-info-toggle { display: none; right: 0.75rem; top: 0.75rem; }
-@media (hover: none), (pointer: coarse) { .speaker-info-toggle { display: inline-flex; } }
+@media (hover: none), (pointer: coarse) {
+  .speaker-info-toggle { display: inline-flex; }
+  .speaker-grid .speaker-back h3 { padding-right: 3.25rem; }
+}
 .speaker-agenda-notice { color: var(--muted-foreground); font-size: 0.9rem; }
 .speaker-agenda-notice strong { color: var(--primary); }
 .schedule-list article.activity-highlighted {
@@ -810,7 +813,18 @@ footer p {
 
 @media (max-width: 560px) {
   .intro-shell {
-    background-size: auto 94%;
+    background-image:
+      linear-gradient(
+        to bottom,
+        oklch(0.12 0 0 / 66%) 0%,
+        oklch(0.12 0 0 / 78%) 58%,
+        var(--background) 100%
+      ),
+      var(--hero-image);
+    background-size: cover;
+    background-position:
+      center,
+      82% center;
   }
   .hero-section {
     min-height: auto;
