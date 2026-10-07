@@ -27,7 +27,11 @@ export function SpeakerCard({ speaker, talkTitle, targetId, onNavigate }: {
         }}>
           <div className="speaker-flipper">
             <div className="speaker-face speaker-front">
-              <img src={speaker.image} alt={`Retrato de ${speaker.name}`} loading="lazy" width={768} height={960} />
+              <img src={speaker.image} alt={`Retrato de ${speaker.name}`} loading="lazy" decoding="async" width={768} height={960} />
+              <div className="speaker-caption" aria-hidden="true">
+                <strong>{speaker.name}</strong>
+                <span>{speaker.role}</span>
+              </div>
             </div>
             <div className="speaker-face speaker-back">
               <div className="speaker-details">

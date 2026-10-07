@@ -22,14 +22,14 @@ import { Button } from "@/components/ui/button";
 import { SpeakerCard } from "@/components/SpeakerCard";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import antonyPhoto from "@/assets/antony.jpeg";
-import jonathanPhoto from "@/assets/JonathanOliveiraBergamo - Jonathan Bergamo.png";
+import jonathanPhoto from "@/assets/JonathanOliveiraBergamo - Jonathan Bergamo.jpg";
 import michelePhoto from "@/assets/michele.jpeg";
 import ericPhoto from "@/assets/eric.jpg";
 import leticiaPhoto from "@/assets/leticia.jpeg";
 import humbertoPhoto from "@/assets/humberto.jpeg";
 import laorPhoto from "@/assets/laor.jpg";
 import brunoPhoto from "@/assets/bruno.jpg";
-import facultyPhoto from "@/assets/senai1.png";
+import facultyPhoto from "@/assets/senai1.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
