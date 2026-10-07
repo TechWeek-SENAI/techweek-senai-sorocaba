@@ -4,8 +4,7 @@ import {
   ArrowDown,
   ArrowUpRight,
   CalendarDays,
-  ChevronLeft,
-  ChevronRight,
+  Camera,
   Instagram,
   Mail,
   MapPin,
@@ -22,9 +21,6 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { SpeakerCard } from "@/components/SpeakerCard";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import eventLab from "@/assets/sesi-event-lab.jpg";
-import eventTalk from "@/assets/sesi-event-talk.jpg";
-import eventWorkshop from "@/assets/sesi-event-workshop.jpg";
 import antonyPhoto from "@/assets/antony.jpeg";
 import jonathanPhoto from "@/assets/JonathanOliveiraBergamo - Jonathan Bergamo.png";
 import michelePhoto from "@/assets/michele.jpeg";
@@ -313,7 +309,6 @@ const speakers = [
   },
 ];
 
-const gallery = [eventLab, eventTalk, eventWorkshop];
 const nav = [
   ["Sobre", "sobre"],
   ["Agenda", "agenda"],
@@ -332,7 +327,6 @@ function SectionHeading({ index, children }: { index: string; children: React.Re
 
 function Index() {
   useScrollReveal();
-  const [slide, setSlide] = useState(0);
   const [showFullSchedule, setShowFullSchedule] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [trackFilter, setTrackFilter] = useState("");
@@ -372,14 +366,6 @@ function Index() {
   useEffect(() => {
     document.documentElement.classList.add("dark");
     document.documentElement.style.colorScheme = "dark";
-  }, []);
-
-  useEffect(() => {
-    const interval = window.setInterval(() => {
-      setSlide((current) => (current + 1) % gallery.length);
-    }, 5000);
-
-    return () => window.clearInterval(interval);
   }, []);
 
   return (
@@ -621,34 +607,12 @@ function Index() {
           <SectionHeading index="04">
             GALERIA DO <em>EVENTO</em>
           </SectionHeading>
-          <div className="gallery-stage">
-            <img
-              key={slide}
-              className="gallery-image"
-              src={gallery[slide]}
-              alt={`Momento da Semana de Tecnologia ${slide + 1}`}
-              width={1200}
-              height={800}
-            />
-            <span className="gallery-count">0{slide + 1} / 03</span>
-            <div className="gallery-controls">
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={() => setSlide((slide + 2) % 3)}
-                aria-label="Foto anterior"
-              >
-                <ChevronLeft />
-              </Button>
-              <Button
-                variant="event"
-                size="icon"
-                onClick={() => setSlide((slide + 1) % 3)}
-                aria-label="Próxima foto"
-              >
-                <ChevronRight />
-              </Button>
-            </div>
+          <div className="gallery-notice">
+            <Camera aria-hidden="true" />
+            <p>
+              <strong>EM BREVE</strong>
+              As imagens registradas durante o evento serão publicadas aqui.
+            </p>
           </div>
         </div>
       </section>

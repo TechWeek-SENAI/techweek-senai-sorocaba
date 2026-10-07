@@ -30,7 +30,7 @@ export function useScrollReveal() {
 
     const register = () => {
       document.querySelectorAll<HTMLElement>(
-        ".hero-copy > *, .section-heading, .feature-list article, .track-filter, .agenda-date, .schedule-list article, .speaker-card, .gallery-stage, footer > *",
+        ".hero-copy > *, .section-heading, .feature-list article, .track-filter, .agenda-date, .schedule-list article, .speaker-card, .gallery-notice, footer > *",
       ).forEach((element) => {
         if (observed.has(element)) return;
         observed.add(element);
