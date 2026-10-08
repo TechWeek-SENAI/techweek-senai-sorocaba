@@ -730,6 +730,32 @@ footer p {
 .past-editions svg {
   width: 0.95rem;
 }
+.footer-credits {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+}
+footer .footer-credits p {
+  margin: 0;
+  color: var(--muted-foreground);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.footer-credits a {
+  color: var(--foreground);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 160ms ease;
+}
+.footer-credits a:hover {
+  color: var(--primary);
+}
 
 @keyframes pulse {
   50% {

@@ -626,7 +626,7 @@ function Index() {
         <div className="footer-links">
           <Button variant="outline" size="icon" asChild>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/senaisorocaba/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
@@ -654,6 +654,27 @@ function Index() {
             </li>
           </ul>
         </nav>
+        <div className="footer-credits">
+          <p>© 2026 SENAI Sorocaba. Todos os direitos reservados.</p>
+          <p>
+            Feito por{" "}
+            <a
+              href="https://www.linkedin.com/in/marco-s-25b4b5358/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Marco
+            </a>{" "}
+            e{" "}
+            <a
+              href="https://www.linkedin.com/in/julio-cesar-botaccio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Júlio
+            </a>
+          </p>
+        </div>
       </footer>
     </main>
   );
