@@ -29,6 +29,7 @@ import leticiaPhoto from "@/assets/leticia.jpeg";
 import humbertoPhoto from "@/assets/humberto.jpeg";
 import laorPhoto from "@/assets/laor.jpg";
 import brunoPhoto from "@/assets/bruno.jpg";
+import palestrantePhoto from "@/assets/palestrante.jpg";
 import facultyPhoto from "@/assets/senai1.jpg";
 
 export const Route = createFileRoute("/")({
@@ -114,10 +115,10 @@ const schedule = [
           {
             time: "19:30 — 20:30",
             type: "PALESTRA",
-            title: "A DEFINIR",
-            speaker: "A DEFINIR",
+            title: "A Usinagem na Cadeia de Valor",
+            speaker: "NOME DO PALESTRANTE · Gestor de Contas",
             place: "Auditório Bloco B - Térreo",
-            text: "Palestrante e informações sobre a atividade serão divulgados em breve.",
+            text: "Uma abordagem sobre ferramentas de usinagem, classificação ISO, escolha e aplicação de pastilhas e o uso de softwares da Indústria 4.0 para aumentar a eficiência e a competitividade dos processos industriais.",
           },
           {
             time: "21:00 — 22:00",
@@ -306,6 +307,13 @@ const speakers = [
     role: "Psicólogo",
     company: "Psicologia Clínica",
     bio: "Psicólogo clínico com trajetória multidisciplinar, tendo atuado por quase uma década como Técnico em Eletrotécnica no setor de manutenção. Há quase 7 anos dedica-se à área clínica, com formação complementar e mestrado pela Universidade de São Paulo (USP).",
+  },
+  {
+    image: palestrantePhoto,
+    name: "NOME DO PALESTRANTE",
+    role: "Gestor de Contas",
+    company: "Produs Ferramentas (Sandvik)",
+    bio: "Engenheiro de Produção com mais de 20 anos de experiência no setor industrial, atuando em engenharia e vendas técnicas de ferramentas para usinagem. É sócio-proprietário da Produs Ferramentas, distribuidora autorizada Sandvik Coromant, com foco em produtividade, tecnologia e melhoria dos processos industriais.",
   },
 ];
 
