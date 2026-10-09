@@ -105,14 +105,6 @@ const schedule = [
         category: "MECATRÔNICA",
         activities: [
           {
-            time: "19:30 — 22:30",
-            type: "MINICURSO",
-            title: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
-            speaker: "Antoni Dalmatti Alves Lima Frigério · Faber",
-            place: "Laboratório de Projetos",
-            text: "Uma introdução prática aos fundamentos da impressão 3D em resina, abordando funcionamento, preparação dos modelos, impressão, pós-processamento, aplicações e possibilidades dentro da manufatura aditiva.",
-          },
-          {
             time: "19:30 — 20:30",
             type: "PALESTRA",
             title: "A Usinagem na Cadeia de Valor",
@@ -122,11 +114,11 @@ const schedule = [
           },
           {
             time: "21:00 — 22:00",
-            type: "A DEFINIR",
-            title: "A DEFINIR",
-            speaker: "A DEFINIR",
+            type: "MINICURSO",
+            title: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
+            speaker: "Antoni Dalmatti Alves Lima Frigério · Faber",
             place: "Auditório Bloco B - Térreo",
-            text: "Palestrante e informações sobre a atividade serão divulgados em breve.",
+            text: "Uma introdução prática aos fundamentos da impressão 3D em resina, abordando funcionamento, preparação dos modelos, impressão, pós-processamento, aplicações e possibilidades dentro da manufatura aditiva.",
           },
         ],
       },
