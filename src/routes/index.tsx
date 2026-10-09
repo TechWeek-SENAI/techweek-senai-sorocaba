@@ -116,7 +116,7 @@ const schedule = [
             time: "19:30 — 20:30",
             type: "PALESTRA",
             title: "A Usinagem na Cadeia de Valor",
-            speaker: "NOME DO PALESTRANTE · Gestor de Contas",
+            speaker: "André Alves · Gestor de Contas",
             place: "Auditório Bloco B - Térreo",
             text: "Uma abordagem sobre ferramentas de usinagem, classificação ISO, escolha e aplicação de pastilhas e o uso de softwares da Indústria 4.0 para aumentar a eficiência e a competitividade dos processos industriais.",
           },
@@ -310,7 +310,7 @@ const speakers = [
   },
   {
     image: palestrantePhoto,
-    name: "NOME DO PALESTRANTE",
+    name: "André Alves",
     role: "Gestor de Contas",
     company: "Produs Ferramentas (Sandvik)",
     bio: "Engenheiro de Produção com mais de 20 anos de experiência no setor industrial, atuando em engenharia e vendas técnicas de ferramentas para usinagem. É sócio-proprietário da Produs Ferramentas, distribuidora autorizada Sandvik Coromant, com foco em produtividade, tecnologia e melhoria dos processos industriais.",
