@@ -114,7 +114,7 @@ const schedule = [
           },
           {
             time: "21:00 — 22:00",
-            type: "MINICURSO",
+            type: "PALESTRA",
             title: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
             speaker: "Antoni Dalmatti Alves Lima Frigério · Faber",
             place: "Auditório Bloco B - Térreo",
