@@ -104,7 +104,7 @@ const schedule = [
         category: "MECATRÔNICA",
         activities: [
           {
-            time: "19:30 — 20:30",
+            time: "19:30 — 22:30",
             type: "MINICURSO",
             title: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
             speaker: "Antoni Dalmatti Alves Lima Frigério · Faber",
