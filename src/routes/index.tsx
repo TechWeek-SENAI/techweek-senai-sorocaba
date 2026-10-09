@@ -135,7 +135,7 @@ const schedule = [
           {
             time: "19:30 — 20:30",
             type: "PALESTRA",
-            title: "Internacionalização em TI",
+            title: "Carreira Global: O Mercado Internacional de Trabalho em Tecnologia",
             speaker: "Jonathan Oliveira Bergamo · Engenheiro de Software",
             place: "Auditório Bloco B - Andar Superior",
             text: "Guia prático para profissionais brasileiros ingressarem no mercado global de tecnologia, explorando preparação técnica, inglês, contratação remota e trabalho internacional.",
