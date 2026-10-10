@@ -142,8 +142,8 @@ const schedule = [
           },
           {
             time: "21:00 — 22:00",
-            type: "A DEFINIR",
-            title: "A DEFINIR",
+            type: "PALESTRA",
+            title: "2RP",
             speaker: "A DEFINIR",
             place: "Auditório Bloco B - Andar Superior",
             text: "Palestrante e informações sobre a atividade serão divulgados em breve.",
