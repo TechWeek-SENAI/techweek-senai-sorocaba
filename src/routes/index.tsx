@@ -4,7 +4,8 @@ import {
   ArrowDown,
   ArrowUpRight,
   CalendarDays,
-  Camera,
+  ChevronLeft,
+  ChevronRight,
   Instagram,
   Mail,
   MapPin,
@@ -32,6 +33,10 @@ import brunoPhoto from "@/assets/bruno.jpg";
 import palestrantePhoto from "@/assets/palestrante.jpg";
 import renePhoto from "@/assets/rene.jpg";
 import facultyPhoto from "@/assets/senai1.jpg";
+import usinagemPhoto1 from "@/assets/gallery/usinagem-1.webp";
+import usinagemPhoto2 from "@/assets/gallery/usinagem-2.webp";
+import carreiraPhoto1 from "@/assets/gallery/carreira-1.webp";
+import carreiraPhoto2 from "@/assets/gallery/carreira-2.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -317,6 +322,33 @@ const speakers = [
   },
 ];
 
+const gallery = [
+  {
+    src: usinagemPhoto1,
+    track: "Mecatrônica",
+    talk: "A Usinagem na Cadeia de Valor",
+    alt: "André Alves apresentando a palestra A Usinagem na Cadeia de Valor",
+  },
+  {
+    src: usinagemPhoto2,
+    track: "Mecatrônica",
+    talk: "A Usinagem na Cadeia de Valor",
+    alt: "Plateia assistindo à palestra A Usinagem na Cadeia de Valor",
+  },
+  {
+    src: carreiraPhoto1,
+    track: "ADS",
+    talk: "Navegando pela Tecnologia: Liderando Projetos, Pessoas e Desafios",
+    alt: "Letícia Fernanda Anhaia Perosa apresentando a palestra sobre liderança em projetos de tecnologia",
+  },
+  {
+    src: carreiraPhoto2,
+    track: "ADS",
+    talk: "Navegando pela Tecnologia: Liderando Projetos, Pessoas e Desafios",
+    alt: "Plateia assistindo à palestra Navegando pela Tecnologia",
+  },
+];
+
 const nav = [
   ["Sobre", "sobre"],
   ["Agenda", "agenda"],
@@ -329,6 +361,64 @@ function SectionHeading({ index, children }: { index: string; children: React.Re
     <div className="section-heading">
       <span>{index}</span>
       <h2>{children}</h2>
+    </div>
+  );
+}
+
+function EventGallery() {
+  const [slide, setSlide] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const total = gallery.length;
+
+  useEffect(() => {
+    if (paused) return;
+    const timeout = window.setTimeout(() => setSlide((current) => (current + 1) % total), 6000);
+    return () => window.clearTimeout(timeout);
+  }, [slide, paused, total]);
+
+  const photo = gallery[slide];
+  if (!photo) return null;
+
+  return (
+    <div
+      className="gallery-stage"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
+      <img
+        key={slide}
+        className="gallery-image"
+        src={photo.src}
+        alt={photo.alt}
+        width={1500}
+        height={1125}
+        decoding="async"
+      />
+      <div className="gallery-caption">
+        <span>{photo.track}</span>
+        <strong>{photo.talk}</strong>
+      </div>
+      <span className="gallery-count">
+        {String(slide + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
+      </span>
+      <div className="gallery-controls">
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={() => setSlide((slide + total - 1) % total)}
+          aria-label="Foto anterior"
+        >
+          <ChevronLeft />
+        </Button>
+        <Button
+          variant="event"
+          size="icon"
+          onClick={() => setSlide((slide + 1) % total)}
+          aria-label="Próxima foto"
+        >
+          <ChevronRight />
+        </Button>
+      </div>
     </div>
   );
 }
@@ -615,13 +705,10 @@ function Index() {
           <SectionHeading index="04">
             GALERIA DO <em>EVENTO</em>
           </SectionHeading>
-          <div className="gallery-notice">
-            <Camera aria-hidden="true" />
-            <p>
-              <strong>EM BREVE</strong>
-              As imagens registradas durante o evento serão publicadas aqui.
-            </p>
-          </div>
+          <EventGallery />
+          <p className="gallery-note">
+            Mais imagens do evento serão publicadas aqui ao longo da Semana de Tecnologia.
+          </p>
         </div>
       </section>
 
