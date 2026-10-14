@@ -30,6 +30,7 @@ import humbertoPhoto from "@/assets/humberto.jpeg";
 import laorPhoto from "@/assets/laor.jpg";
 import brunoPhoto from "@/assets/bruno.jpg";
 import palestrantePhoto from "@/assets/palestrante.jpg";
+import renePhoto from "@/assets/rene.jpg";
 import facultyPhoto from "@/assets/senai1.jpg";
 
 export const Route = createFileRoute("/")({
@@ -143,10 +144,10 @@ const schedule = [
           {
             time: "21:00 — 22:00",
             type: "PALESTRA",
-            title: "2RP",
-            speaker: "A DEFINIR",
+            title: "Lego4Scrum",
+            speaker: "Rene Esteves · CTO",
             place: "Auditório Bloco B - Andar Superior",
-            text: "Palestrante e informações sobre a atividade serão divulgados em breve.",
+            text: "Lego4Scrum é uma simulação prática e imersiva criada para ensinar os princípios do Scrum e do pensamento ágil usando blocos de LEGO. Em vez de apenas ouvir teorias, os participantes formam times multifuncionais e constroem uma cidade (ou produto complexo) ao longo de múltiplos ciclos curtos. Na prática, eles vivenciam todos os papéis, cerimônias, entregas incrementais e a evolução contínua guiada por feedback do Product Owner.",
           },
         ],
       },
@@ -306,6 +307,13 @@ const speakers = [
     role: "Gestor de Contas",
     company: "Produs Ferramentas (Sandvik)",
     bio: "Engenheiro de Produção com mais de 20 anos de experiência no setor industrial, atuando em engenharia e vendas técnicas de ferramentas para usinagem. É sócio-proprietário da Produs Ferramentas, distribuidora autorizada Sandvik Coromant, com foco em produtividade, tecnologia e melhoria dos processos industriais.",
+  },
+  {
+    image: renePhoto,
+    name: "Rene Esteves",
+    role: "CTO",
+    company: "Tech",
+    bio: "CTO com atuação na área de tecnologia. Conduz a simulação Lego4Scrum, uma vivência prática para aprender os princípios do Scrum e do pensamento ágil com blocos de LEGO.",
   },
 ];
 
