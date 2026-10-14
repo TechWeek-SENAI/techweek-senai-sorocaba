@@ -706,9 +706,6 @@ function Index() {
             GALERIA DO <em>EVENTO</em>
           </SectionHeading>
           <EventGallery />
-          <p className="gallery-note">
-            Mais imagens do evento serão publicadas aqui ao longo da Semana de Tecnologia.
-          </p>
         </div>
       </section>
 
