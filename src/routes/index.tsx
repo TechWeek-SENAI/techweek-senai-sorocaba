@@ -32,6 +32,7 @@ import laorPhoto from "@/assets/laor.jpg";
 import brunoPhoto from "@/assets/bruno.jpg";
 import palestrantePhoto from "@/assets/palestrante.jpg";
 import renePhoto from "@/assets/rene.jpg";
+import joaoPhoto from "@/assets/joao.jpg";
 import facultyPhoto from "@/assets/senai1.jpg";
 import usinagemPhoto1 from "@/assets/gallery/usinagem-1.webp";
 import usinagemPhoto2 from "@/assets/gallery/usinagem-2.webp";
@@ -224,11 +225,12 @@ const schedule = [
           },
           {
             time: "21:00 — 22:00",
-            type: "A DEFINIR",
-            title: "A DEFINIR",
-            speaker: "A DEFINIR",
+            type: "PALESTRA",
+            title:
+              "Automação Inteligente na Indústria 4.0: Como as Soluções Proauto Elevam a Eficiência, Confiabilidade e Competitividade Industrial",
+            speaker: "João Vitor Souza de Messias · Executivo de Projetos",
             place: "Auditório Bloco B - Térreo",
-            text: "Palestrante e informações sobre a atividade serão divulgados em breve.",
+            text: "A palestra abordará como as tecnologias de automação inteligente e os conceitos da Indústria 4.0 contribuem para aumentar a eficiência operacional, a confiabilidade e a competitividade industrial. Serão apresentadas soluções Proauto, incluindo automação, acionamentos, robótica e conectividade, com foco em aplicações práticas e resultados para a indústria.",
           },
         ],
       },
@@ -323,6 +325,13 @@ const speakers = [
     role: "CTO",
     company: "Tech",
     bio: "CTO com atuação na área de tecnologia. Conduz a simulação Lego4Scrum, uma vivência prática para aprender os princípios do Scrum e do pensamento ágil com blocos de LEGO.",
+  },
+  {
+    image: joaoPhoto,
+    name: "João Vitor Souza de Messias",
+    role: "Executivo de Projetos",
+    company: "Proauto Electric",
+    bio: "Engenheiro eletricista formado pela FACENS, com trajetória em automação industrial: manutenção, software para CLPs, integração de sistemas, projetos e comissionamento. Atuou com tecnologias Siemens, Rockwell, B&R e Schneider Electric e fez treinamento na China com a Inovance. Hoje, como Executivo de Projetos, aproxima a tecnologia das aplicações práticas da indústria.",
   },
 ];
 
