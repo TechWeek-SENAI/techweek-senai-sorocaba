@@ -37,6 +37,10 @@ import usinagemPhoto1 from "@/assets/gallery/usinagem-1.webp";
 import usinagemPhoto2 from "@/assets/gallery/usinagem-2.webp";
 import carreiraPhoto1 from "@/assets/gallery/carreira-1.webp";
 import carreiraPhoto2 from "@/assets/gallery/carreira-2.webp";
+import manufaturaPhoto1 from "@/assets/gallery/manufatura-1.webp";
+import manufaturaPhoto2 from "@/assets/gallery/manufatura-2.webp";
+import iaDevPhoto1 from "@/assets/gallery/ia-dev-1.webp";
+import iaDevPhoto2 from "@/assets/gallery/ia-dev-2.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -346,6 +350,30 @@ const gallery = [
     track: "ADS",
     talk: "Navegando pela Tecnologia: Liderando Projetos, Pessoas e Desafios",
     alt: "Plateia assistindo à palestra Navegando pela Tecnologia",
+  },
+  {
+    src: manufaturaPhoto1,
+    track: "Mecatrônica",
+    talk: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
+    alt: "Antoni Dalmatti apresentando a palestra sobre impressão 3D em resina",
+  },
+  {
+    src: manufaturaPhoto2,
+    track: "Mecatrônica",
+    talk: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
+    alt: "Plateia assistindo à palestra sobre impressão 3D em resina",
+  },
+  {
+    src: iaDevPhoto1,
+    track: "ADS",
+    talk: "A Evolução da Função do Desenvolvedor na Era da IA",
+    alt: "Humberto Cornia apresentando a palestra sobre a função do desenvolvedor na era da IA",
+  },
+  {
+    src: iaDevPhoto2,
+    track: "ADS",
+    talk: "A Evolução da Função do Desenvolvedor na Era da IA",
+    alt: "Plateia assistindo à palestra sobre a função do desenvolvedor na era da IA",
   },
 ];
 
