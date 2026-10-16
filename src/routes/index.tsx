@@ -42,6 +42,14 @@ import manufaturaPhoto1 from "@/assets/gallery/manufatura-1.webp";
 import manufaturaPhoto2 from "@/assets/gallery/manufatura-2.webp";
 import iaDevPhoto1 from "@/assets/gallery/ia-dev-1.webp";
 import iaDevPhoto2 from "@/assets/gallery/ia-dev-2.webp";
+import michelePhoto1 from "@/assets/gallery/michele-1.webp";
+import michelePhoto2 from "@/assets/gallery/michele-2.webp";
+import jonathanGalleryPhoto1 from "@/assets/gallery/jonathan-1.webp";
+import jonathanGalleryPhoto2 from "@/assets/gallery/jonathan-2.webp";
+import brunoGalleryPhoto1 from "@/assets/gallery/bruno-1.webp";
+import brunoGalleryPhoto2 from "@/assets/gallery/bruno-2.webp";
+import reneGalleryPhoto1 from "@/assets/gallery/rene-1.webp";
+import reneGalleryPhoto2 from "@/assets/gallery/rene-2.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -384,6 +392,54 @@ const gallery = [
     talk: "A Evolução da Função do Desenvolvedor na Era da IA",
     alt: "Plateia assistindo à palestra sobre a função do desenvolvedor na era da IA",
   },
+  {
+    src: michelePhoto1,
+    track: "Mecatrônica",
+    talk: "E quando não tem manual?",
+    alt: "Michele da Rocha Moreira apresentando a palestra E quando não tem manual?",
+  },
+  {
+    src: michelePhoto2,
+    track: "Mecatrônica",
+    talk: "E quando não tem manual?",
+    alt: "Plateia assistindo à palestra E quando não tem manual?",
+  },
+  {
+    src: jonathanGalleryPhoto1,
+    track: "ADS",
+    talk: "Carreira Global: O Mercado Internacional de Trabalho em Tecnologia",
+    alt: "Jonathan Oliveira Bergamo apresentando a palestra sobre carreira global em tecnologia",
+  },
+  {
+    src: jonathanGalleryPhoto2,
+    track: "ADS",
+    talk: "Carreira Global: O Mercado Internacional de Trabalho em Tecnologia",
+    alt: "Plateia assistindo à palestra sobre carreira global em tecnologia",
+  },
+  {
+    src: brunoGalleryPhoto1,
+    track: "Mecatrônica",
+    talk: "Manutenção Produtiva da Mente: Prevenindo o Overload no Chão de Fábrica",
+    alt: "Bruno Souza ao lado da programação do evento exibida na TV",
+  },
+  {
+    src: brunoGalleryPhoto2,
+    track: "Mecatrônica",
+    talk: "Manutenção Produtiva da Mente: Prevenindo o Overload no Chão de Fábrica",
+    alt: "Bruno Souza apresentando a palestra sobre saúde mental no trabalho",
+  },
+  {
+    src: reneGalleryPhoto1,
+    track: "ADS",
+    talk: "Lego4Scrum",
+    alt: "Rene Esteves apresentando a palestra Lego4Scrum",
+  },
+  {
+    src: reneGalleryPhoto2,
+    track: "ADS",
+    talk: "Lego4Scrum",
+    alt: "Plateia assistindo à palestra Lego4Scrum",
+  },
 ];
 
 const nav = [
@@ -422,15 +478,20 @@ function EventGallery() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <img
+      <div
         key={slide}
-        className="gallery-image"
-        src={photo.src}
-        alt={photo.alt}
-        width={1500}
-        height={1125}
-        decoding="async"
-      />
+        className="gallery-frame"
+        style={{ "--gallery-bg": `url(${photo.src})` } as React.CSSProperties}
+      >
+        <img
+          className="gallery-image"
+          src={photo.src}
+          alt={photo.alt}
+          width={1500}
+          height={1125}
+          decoding="async"
+        />
+      </div>
       <div className="gallery-caption">
         <span>{photo.track}</span>
         <strong>{photo.talk}</strong>
