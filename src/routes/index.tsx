@@ -348,96 +348,112 @@ const gallery = [
     src: usinagemPhoto1,
     track: "Mecatrônica",
     talk: "A Usinagem na Cadeia de Valor",
+    speaker: "André Alves",
     alt: "André Alves apresentando a palestra A Usinagem na Cadeia de Valor",
   },
   {
     src: usinagemPhoto2,
     track: "Mecatrônica",
     talk: "A Usinagem na Cadeia de Valor",
+    speaker: "André Alves",
     alt: "Plateia assistindo à palestra A Usinagem na Cadeia de Valor",
   },
   {
     src: carreiraPhoto1,
     track: "ADS",
     talk: "Navegando pela Tecnologia: Liderando Projetos, Pessoas e Desafios",
+    speaker: "Letícia Fernanda Anhaia Perosa",
     alt: "Letícia Fernanda Anhaia Perosa apresentando a palestra sobre liderança em projetos de tecnologia",
   },
   {
     src: carreiraPhoto2,
     track: "ADS",
     talk: "Navegando pela Tecnologia: Liderando Projetos, Pessoas e Desafios",
+    speaker: "Letícia Fernanda Anhaia Perosa",
     alt: "Plateia assistindo à palestra Navegando pela Tecnologia",
   },
   {
     src: manufaturaPhoto1,
     track: "Mecatrônica",
     talk: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
+    speaker: "Antoni Dalmatti Alves Lima Frigério",
     alt: "Antoni Dalmatti apresentando a palestra sobre impressão 3D em resina",
   },
   {
     src: manufaturaPhoto2,
     track: "Mecatrônica",
     talk: "Manufatura Aditiva: Desmistificando a Impressão 3D em Resina",
+    speaker: "Antoni Dalmatti Alves Lima Frigério",
     alt: "Plateia assistindo à palestra sobre impressão 3D em resina",
   },
   {
     src: iaDevPhoto1,
     track: "ADS",
     talk: "A Evolução da Função do Desenvolvedor na Era da IA",
+    speaker: "Humberto Cornia",
     alt: "Humberto Cornia apresentando a palestra sobre a função do desenvolvedor na era da IA",
   },
   {
     src: iaDevPhoto2,
     track: "ADS",
     talk: "A Evolução da Função do Desenvolvedor na Era da IA",
+    speaker: "Humberto Cornia",
     alt: "Plateia assistindo à palestra sobre a função do desenvolvedor na era da IA",
   },
   {
     src: michelePhoto1,
     track: "Mecatrônica",
     talk: "E quando não tem manual?",
+    speaker: "Michele da Rocha Moreira",
     alt: "Michele da Rocha Moreira apresentando a palestra E quando não tem manual?",
   },
   {
     src: michelePhoto2,
     track: "Mecatrônica",
     talk: "E quando não tem manual?",
+    speaker: "Michele da Rocha Moreira",
     alt: "Plateia assistindo à palestra E quando não tem manual?",
   },
   {
     src: jonathanGalleryPhoto1,
     track: "ADS",
     talk: "Carreira Global: O Mercado Internacional de Trabalho em Tecnologia",
+    speaker: "Jonathan Oliveira Bergamo",
     alt: "Jonathan Oliveira Bergamo apresentando a palestra sobre carreira global em tecnologia",
   },
   {
     src: jonathanGalleryPhoto2,
     track: "ADS",
     talk: "Carreira Global: O Mercado Internacional de Trabalho em Tecnologia",
+    speaker: "Jonathan Oliveira Bergamo",
     alt: "Plateia assistindo à palestra sobre carreira global em tecnologia",
   },
   {
     src: brunoGalleryPhoto1,
     track: "Mecatrônica",
     talk: "Manutenção Produtiva da Mente: Prevenindo o Overload no Chão de Fábrica",
+    speaker: "Bruno Souza",
     alt: "Bruno Souza ao lado da programação do evento exibida na TV",
   },
   {
     src: brunoGalleryPhoto2,
     track: "Mecatrônica",
     talk: "Manutenção Produtiva da Mente: Prevenindo o Overload no Chão de Fábrica",
+    speaker: "Bruno Souza",
     alt: "Bruno Souza apresentando a palestra sobre saúde mental no trabalho",
   },
   {
     src: reneGalleryPhoto1,
     track: "ADS",
     talk: "Lego4Scrum",
+    speaker: "Rene Esteves",
     alt: "Rene Esteves apresentando a palestra Lego4Scrum",
   },
   {
     src: reneGalleryPhoto2,
     track: "ADS",
     talk: "Lego4Scrum",
+    speaker: "Rene Esteves",
     alt: "Plateia assistindo à palestra Lego4Scrum",
   },
 ];
@@ -494,7 +510,8 @@ function EventGallery() {
       </div>
       <div className="gallery-caption">
         <span>{photo.track}</span>
-        <strong>{photo.talk}</strong>
+        <strong>{photo.speaker}</strong>
+        <small>{photo.talk}</small>
       </div>
       <span className="gallery-count">
         {String(slide + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
