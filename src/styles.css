@@ -701,6 +701,9 @@ p {
   font-weight: 500;
   line-height: 1.35;
 }
+.gallery-bar {
+  display: contents;
+}
 .gallery-controls {
   display: flex;
   justify-content: flex-end;
@@ -963,23 +966,39 @@ footer .footer-credits p {
   .signup-button:focus-visible span {
     display: none;
   }
+  .gallery-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.85rem;
+  }
   .gallery-count {
-    left: 0.75rem;
-    top: 0.75rem;
+    position: static;
     padding: 0.4rem 0.6rem;
     font-size: 1rem;
   }
+  .gallery-controls {
+    margin-top: 0;
+  }
   .gallery-caption {
-    right: 0.6rem;
-    top: 0.6rem;
-    max-width: 62%;
-    padding: 0.4rem 0.55rem;
+    position: static;
+    align-items: flex-start;
+    max-width: none;
+    margin-top: 0.6rem;
+    padding: 0.65rem 0.8rem;
+    background: var(--card);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    border-right: 0;
+    border-left: 2px solid var(--primary);
+    text-align: left;
   }
   .gallery-caption strong {
-    font-size: 0.74rem;
+    font-size: 0.9rem;
   }
   .gallery-caption small {
-    font-size: 0.62rem;
+    font-size: 0.74rem;
   }
   footer {
     grid-template-columns: 1fr;

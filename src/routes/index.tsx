@@ -513,26 +513,28 @@ function EventGallery() {
         <strong>{photo.speaker}</strong>
         <small>{photo.talk}</small>
       </div>
-      <span className="gallery-count">
-        {String(slide + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
-      </span>
-      <div className="gallery-controls">
-        <Button
-          variant="outline"
-          size="icon"
-          onClick={() => setSlide((slide + total - 1) % total)}
-          aria-label="Foto anterior"
-        >
-          <ChevronLeft />
-        </Button>
-        <Button
-          variant="event"
-          size="icon"
-          onClick={() => setSlide((slide + 1) % total)}
-          aria-label="Próxima foto"
-        >
-          <ChevronRight />
-        </Button>
+      <div className="gallery-bar">
+        <span className="gallery-count">
+          {String(slide + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
+        </span>
+        <div className="gallery-controls">
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={() => setSlide((slide + total - 1) % total)}
+            aria-label="Foto anterior"
+          >
+            <ChevronLeft />
+          </Button>
+          <Button
+            variant="event"
+            size="icon"
+            onClick={() => setSlide((slide + 1) % total)}
+            aria-label="Próxima foto"
+          >
+            <ChevronRight />
+          </Button>
+        </div>
       </div>
     </div>
   );
