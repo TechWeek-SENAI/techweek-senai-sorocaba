@@ -50,6 +50,14 @@ import brunoGalleryPhoto1 from "@/assets/gallery/bruno-1.webp";
 import brunoGalleryPhoto2 from "@/assets/gallery/bruno-2.webp";
 import reneGalleryPhoto1 from "@/assets/gallery/rene-1.webp";
 import reneGalleryPhoto2 from "@/assets/gallery/rene-2.webp";
+import ericMecaPhoto1 from "@/assets/gallery/eric-meca-1.webp";
+import ericMecaPhoto2 from "@/assets/gallery/eric-meca-2.webp";
+import laorGalleryPhoto1 from "@/assets/gallery/laor-1.webp";
+import laorGalleryPhoto2 from "@/assets/gallery/laor-2.webp";
+import ericAdsPhoto1 from "@/assets/gallery/eric-ads-1.webp";
+import ericAdsPhoto2 from "@/assets/gallery/eric-ads-2.webp";
+import proautoPhoto1 from "@/assets/gallery/proauto-1.webp";
+import proautoPhoto2 from "@/assets/gallery/proauto-2.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -455,6 +463,62 @@ const gallery = [
     talk: "Lego4Scrum",
     speaker: "Rene Esteves",
     alt: "Plateia assistindo à palestra Lego4Scrum",
+  },
+  {
+    src: ericMecaPhoto1,
+    track: "Mecatrônica",
+    talk: "Seu comportamento fala antes de você",
+    speaker: "Eric Garcia",
+    alt: "Eric Garcia apresentando a palestra Seu comportamento fala antes de você",
+  },
+  {
+    src: ericMecaPhoto2,
+    track: "Mecatrônica",
+    talk: "Seu comportamento fala antes de você",
+    speaker: "Eric Garcia",
+    alt: "Plateia assistindo à palestra Seu comportamento fala antes de você",
+  },
+  {
+    src: laorGalleryPhoto1,
+    track: "ADS",
+    talk: "Geração Z não rejeita trabalho, mas redefine carreiras",
+    speaker: "Laôr Fernandes de Oliveira",
+    alt: "Laôr Fernandes de Oliveira apresentando a palestra sobre a Geração Z e as carreiras",
+  },
+  {
+    src: laorGalleryPhoto2,
+    track: "ADS",
+    talk: "Geração Z não rejeita trabalho, mas redefine carreiras",
+    speaker: "Laôr Fernandes de Oliveira",
+    alt: "Plateia assistindo à palestra sobre a Geração Z e as carreiras",
+  },
+  {
+    src: proautoPhoto1,
+    track: "Mecatrônica",
+    talk: "Automação Inteligente na Indústria 4.0: Como as Soluções Proauto Elevam a Eficiência, Confiabilidade e Competitividade Industrial",
+    speaker: "João Vitor Souza de Messias",
+    alt: "João Vitor Souza de Messias apresentando soluções de automação da Proauto aos alunos",
+  },
+  {
+    src: proautoPhoto2,
+    track: "Mecatrônica",
+    talk: "Automação Inteligente na Indústria 4.0: Como as Soluções Proauto Elevam a Eficiência, Confiabilidade e Competitividade Industrial",
+    speaker: "João Vitor Souza de Messias",
+    alt: "Plateia assistindo à palestra sobre automação inteligente da Proauto",
+  },
+  {
+    src: ericAdsPhoto1,
+    track: "ADS",
+    talk: "Seu comportamento fala antes de você",
+    speaker: "Eric Garcia",
+    alt: "Eric Garcia apresentando a palestra Seu comportamento fala antes de você",
+  },
+  {
+    src: ericAdsPhoto2,
+    track: "ADS",
+    talk: "Seu comportamento fala antes de você",
+    speaker: "Eric Garcia",
+    alt: "Plateia assistindo à palestra Seu comportamento fala antes de você",
   },
 ];
 
